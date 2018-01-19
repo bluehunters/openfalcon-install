@@ -1,0 +1,4 @@
+2018/01/18 19:42:07 cfg.go:74: read config file: /data/openfalcon-sh/src/open-falcon/aggregator/config/cfg.json successfully
+2018/01/18 19:42:07 db.go:23: ping db fail: Error 1045: Access denied for user 'root'@'localhost' (using password: NO)
+2018/01/18 19:43:06 cfg.go:74: read config file: /data/openfalcon-sh/src/open-falcon/aggregator/config/cfg.json successfully
+2018/01/18 19:43:06 db.go:23: ping db fail: Error 1045: Access denied for user 'root'@'localhost' (using password: NO)

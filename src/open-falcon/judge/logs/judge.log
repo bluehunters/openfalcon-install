@@ -1,0 +1,8 @@
+2018/01/18 19:42:07 cfg.go:90: read config file: /data/openfalcon-sh/src/open-falcon/judge/config/cfg.json successfully
+2018/01/18 19:42:07 rpc.go:24: rpc listening 0.0.0.0:6080
+2018/01/18 19:42:07 rpc.go:45: dial 0.0.0.0:6030 fail: dial tcp 0.0.0.0:6030: getsockopt: connection refused
+2018/01/18 19:42:07 http.go:60: http listening 0.0.0.0:6081
+2018/01/18 19:42:09 rpc.go:45: dial 0.0.0.0:6030 fail: dial tcp 0.0.0.0:6030: getsockopt: connection refused
+2018/01/18 19:42:13 rpc.go:45: dial 0.0.0.0:6030 fail: dial tcp 0.0.0.0:6030: getsockopt: connection refused
+2018/01/18 19:42:21 rpc.go:45: dial 0.0.0.0:6030 fail: dial tcp 0.0.0.0:6030: getsockopt: connection refused
+2018/01/18 19:42:37 rpc.go:45: dial 0.0.0.0:6030 fail: dial tcp 0.0.0.0:6030: getsockopt: connection refused

@@ -1,0 +1,6 @@
+2018/01/18 19:42:07 cfg.go:115: g.ParseConfig ok, file  /data/openfalcon-sh/src/open-falcon/transfer/config/cfg.json
+2018/01/18 19:42:07 proc.go:57: proc.Start, ok
+2018/01/18 19:42:07 sender.go:60: send.Start, ok
+2018/01/18 19:42:07 rpc.go:26: rpc listening 0.0.0.0:8433
+2018/01/18 19:42:07 socket.go:24: socket listening 0.0.0.0:4444
+2018/01/18 19:42:07 http.go:43: http.startHttpServer ok, listening 0.0.0.0:6060

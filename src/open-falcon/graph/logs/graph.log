@@ -1,0 +1,18 @@
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /health                   --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func1 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /api/v2/health            --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func2 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /api/v2/version           --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func3 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /api/v2/workdir           --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func4 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /api/v2/config            --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func5 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] POST   /api/v2/config/reload     --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func6 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /api/v2/stats/graph-queue-size --> github.com/open-falcon/falcon-plus/modules/graph/http.configCommonRoutes.func7 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /counter/all              --> github.com/open-falcon/falcon-plus/modules/graph/http.configProcRoutes.func1 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /statistics/all           --> github.com/open-falcon/falcon-plus/modules/graph/http.configProcRoutes.func2 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /index/updateAll          --> github.com/open-falcon/falcon-plus/modules/graph/http.configIndexRoutes.func1 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] GET    /index/updateAll/concurrent --> github.com/open-falcon/falcon-plus/modules/graph/http.configIndexRoutes.func2 (3 handlers)
+2018/01/18 19:42:07 debug.go:45: [GIN-debug] POST   /api/v2/index             --> github.com/open-falcon/falcon-plus/modules/graph/http.configIndexRoutes.func3 (3 handlers)
+2018/01/18 19:42:07 cfg.go:90: g.ParseConfig ok, file /data/openfalcon-sh/src/open-falcon/graph/config/cfg.json
+2018/01/18 19:42:07 db.go:22: g.InitDB, get db conn fail Error 1045: Access denied for user 'root'@'localhost' (using password: NO)
